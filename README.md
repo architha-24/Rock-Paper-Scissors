@@ -9,7 +9,7 @@ Players can play multiple rounds, check their score anytime, and reset the score
 ## 🚀 Features
 
 ✅ Play Rock-Paper-Scissors against the computer.
-✅ Tracks wins, losses, and ties.
+✅ Tracks wins, losses, and ties.<br>
 ✅ “Check Score” button to view current score.
 ✅ “Reset Score” button to clear scores anytime.
 ✅ Fully responsive and minimalistic UI
