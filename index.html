@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><u>ROCK PAPER SCISSORS</u></h1>
+    <div class="container">
+
+        <div class="explanation">
+            <h2 class="rules"><u>How to Play :</u></h2>
+            <ul>
+                <li>Choose Rock, Paper, or Scissors by clicking a button.</li>
+                <li>The computer will also choose one randomly.</li>
+                <li>Rock beats Scissors, Scissors beats Paper, Paper beats Rock.</li>
+                <li>If both choose the same, it's a tie.</li>
+                <li>Check your score anytime using the “Check Score” button.</li>
+                <li>Reset your score using “Reset Score” button.</li>
+                <li>Play multiple rounds to track your wins, losses, and ties.</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="play">
+            <h2 class="rules"><u>Play</u></h2>
+            <div class="img-container">
+                <figure>
+                    <img src="Rock.png" alt="">
+                    <figcaption><button onclick="game('Rock')">ROCK</button></figcaption>
+                </figure>
+                <figure>
+                    <img src="Paper.png" alt="">
+                    <figcaption><button onclick="game('Paper')">PAPER</button></figcaption>
+                </figure>
+                <figure>
+                    <img src="Scissors.png" alt="">
+                    <figcaption><button onclick="game('Scissors')">SCISSORS</button></figcaption>
+                </figure>
+            </div>
+            <h2 id="result"></h2>
+            <div class="button-row">
+                <button onclick="showScore()" id="scoreButton">Check Score</button>
+                <button onclick="resetScore()" id="reset">Reset Score</button>
+            </div>
+            <div id="scoreDisplay"></div>
+            <div id="resetscore"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
