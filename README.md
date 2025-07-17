@@ -6,7 +6,7 @@ Players can play multiple rounds, check their score anytime, and reset the score
 
 ---
 
-Features :
+## 🚀 Features
 
 ✅ Play Rock-Paper-Scissors against the computer.
 ✅ Tracks wins, losses, and ties.
@@ -16,7 +16,7 @@ Features :
 
 ---
 
-Technologies Used :
+## Technologies Used :
 
 HTML (structure of web page)
 
@@ -26,7 +26,7 @@ JavaScript (DOM manipulation, event handling)
 
 ---
 
-How to Run:
+## How to Run:
 
 Clone this repository or download the files.
 
