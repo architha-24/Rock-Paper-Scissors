@@ -33,3 +33,8 @@ Clone this repository or download the files.
 Open index.html in your browser.
 
 Start playing!
+
+---
+
+[Live Demo](https://rock-paper-scissors-live-demo.netlify.app/)
+
